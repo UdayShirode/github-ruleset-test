@@ -1,2 +1,2 @@
 # github-ruleset-test
-To test ruleset
+## To test ruleset
