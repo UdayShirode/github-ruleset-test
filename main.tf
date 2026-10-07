@@ -1,6 +1,6 @@
 resource "github_repository_ruleset" "main_branch_protection" {
   name        = "Protect Main Branch TF"
-  repository  = var.github-ruleset-test
+  repository  = var.repository_name
   target      = "branch"
   enforcement = "active"
 
