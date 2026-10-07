@@ -34,8 +34,6 @@ resource "github_repository_ruleset" "main_branch_protection" {
       require_last_push_approval        = true
       required_approving_review_count   = 1
       required_review_thread_resolution = true
-    }
-
-    
+    }  
   }
 }
